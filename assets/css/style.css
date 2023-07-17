@@ -440,7 +440,7 @@ main {
 
 .social-item .social-link {
   color: var(--light-gray-70);
-  font-size: 18px;
+  font-size: 20px;
 }
 
 
@@ -1879,4 +1879,10 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .timeline-text { max-width: 700px; }
 
+}
+
+.contact- :is(.contact-link) {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
